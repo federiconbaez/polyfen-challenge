@@ -1,0 +1,18 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Para inicializar el setup de Node.js en tu proyecto, sigue estos pasos:",
+  "main": "config.js",
+  "scripts": {
+    "start": "node /home/fbaez/Documentos/challenge/backend/server.js",
+    "dev": "nodemon /home/fbaez/Documentos/challenge/backend/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  }
+}
