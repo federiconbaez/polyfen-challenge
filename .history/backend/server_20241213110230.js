@@ -24,3 +24,4 @@ app.use(errorHandler);
 app.listen(CONFIG.PORT, () => {
   console.log(`Server is running on port ${CONFIG.PORT}`);
 });
+
